@@ -3,126 +3,163 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thrisha's Portfolio</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>Thrisha Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <header>
+      <h2>Thrisha</h2>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#life-skills">Life Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-    <section id="home">
-      <h1>Hello, I am Thrisha</h1>
-      <p>I am learning web development</p>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm Thrisha</h1>
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+      <img src="./images/my photo.jpg" alt="Thrisha Profile" />
     </section>
 
-    <section id="about">
+    <section class="section" id="about">
       <h2>About Me</h2>
-      <img class="image" src="./images/image.jpeg" alt="Thrisha's photo" />
-      <p>
-        Hello! My name is Thrisha. I am 19 years old and I am from a small
-        village in Thiruvallur. I come from a family of five members: my father,
-        mother, two elder brothers, and me. Although my family background is
-        simple, I strongly believe in hard work and continuous learning. I enjoy
-        reading books and improving my skills every day. My dream is to become a
-        successful web developer and support my family in the future.
-      </p>
+
+      <div class="about-container">
+        <img src="./images/my photo.jpg" alt="About Thrisha" width="400" />
+
+        <p class="about">
+          Hi, I am Thrisha. I am 19 years old and I am from a small
+          village in Thiruvallur.I am completed 12 th standard I came from a
+          family of five members: my Father, Mother, two elder Brothers, and me.
+          Although my family background is simple, I strongly believe in hard
+          work and continuous learning. I enjoy reading books and improving my
+          skills every day. I am currently learning frontend development,
+          focusing on HTML, CSS, and JavaScript. I am also learning Low-Code and
+          No-Code tools and Figma design. 
+        </p>
+      </div>
     </section>
 
-    <section id="skills">
+    <section class="section" id="skills">
       <h2>My Skills</h2>
-      <div class="skills-box">
-        <div class="skill">HTML</div>
-        <div class="skill">CSS</div>
-        <div class="skill">JavaScript</div>
+
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><div class="fill html"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><div class="fill css"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>JavaScript</span>
+        <div class="bar"><div class="fill js"></div></div>
+      </div>
+
+      <div class="skill">
+        <span>Life Skills</span>
+        <div class="bar"><div class="fill life"></div></div>
       </div>
     </section>
 
-    <section id="projects">
-      <h2>My Projects</h2>
-      <div class="projects-container">
-        <div class="project-card">
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+
+      <div class="projects">
+        <div class="project">
+          <img src="./images/project2.png" alt="To Do App" />
           <h3>To-Do List App</h3>
-          <img src="./images/project2.png" alt="To-Do List App" />
-          <p>
-            A simple and clean task management application built with HTML and
-            CSS to help users organize their daily activities.
-          </p>
-
-          <div class="project-description">
-            <h4>What I Built:</h4>
-            <ul>
-              <li>Clean and intuitive user interface with modern design</li>
-              <li>Input field to add new tasks quickly</li>
-              <li>
-                Checkbox to mark tasks as complete with strike-through effect
-              </li>
-              <li>Delete button to remove completed tasks</li>
-              <li>Task counter showing total pending tasks</li>
-              <li>Responsive design that works on mobile and desktop</li>
-
-              <li>HTML for structure and semantic elements</li>
-              <li>CSS for styling, colors, and smooth animations</li>
-              <li>CSS Flexbox for flexible layouts</li>
-            </ul>
-          </div>
-
-          <div class="project-links">
-            <a
-              href="https://github.com/thrishathrisha849-cyber/Project-TODO-list.git"
-              target="_blank"
-            >
-              View Source Code on GitHub</a
-            >
-          </div>
+          <p>Task management web application.</p>
+          <a
+            href="https://thrishathrisha849-cyber.github.io/Project-TODO-list/"
+            target="_blank"
+            class="btn btn-primary"
+            >View Website</a
+          >
         </div>
 
-        <div class="project-card">
-          <h3>Meesho App UI Clone</h3>
-          <img src="./images/project3.png" alt="Meesho App UI Clone" />
-          <p>
-            A static website clone of the popular Meesho shopping app, focusing
-            on recreating the layout, design, and product displays.
-          </p>
-
-          <div class="project-description">
-            <h4>What I Built:</h4>
-            <ul>
-              <li>Full homepage design matching Meesho's style</li>
-              <li>Navigation bar with logo and menu items</li>
-              <li>Search bar for product discovery</li>
-              <li>Product grid with multiple items displayed beautifully</li>
-              <li>Product cards showing images, names, and prices</li>
-              <li>Category sections for easy browsing</li>
-              <li>Footer with company links and information</li>
-              <li>Responsive layout for all device sizes</li>
-              <li>HTML5 for page structure and content organization</li>
-              <li>CSS for colors, fonts, and visual styling</li>
-              <li>CSS Grid for product grid layout</li>
-              <li>CSS Flexbox for navigation and sections</li>
-            </ul>
-          </div>
-
-          <div class="project-links">
-            <a
-              href="https://github.com/thrishathrisha849-cyber/static-webpage.git"
-              target="_blank"
-            >
-              View Source Code on GitHub</a
-            >
-          </div>
+        <div class="project">
+          <img src="./images/project1.png" alt="Static Website" />
+          <h3>Static Website</h3>
+          <p>HTML & CSS static webpage.</p>
+          <a
+            href="https://thrishathrisha849-cyber.github.io/static-webpage/"
+            target="_blank"
+            class="btn btn-primary"
+            >View Website</a
+          >
         </div>
       </div>
-    </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <p>📧 thrishathrisha849@gmail.com</p>
-      <p>📱 +91 9360498814</p>
+      <section class="section" id="life-skills">
+        <h2>Life Skills</h2>
+        <div class="life-certificates">
+          <div class="life-card">
+            <img src="./images/poster.png" alt="Britannia Life Skills Poster" />
+            <h3>Life Skills Training</h3>
+            <p>Communication • Confidence • Teamwork</p>
+          </div>
+          <div class="life-card">
+            <img src="./images/Figma.png" alt="Figma" height="1000" />
+            <h3>Life Skills Project</h3>
+            <p>Self Learning Modules</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="life-skills">
+        <h2>English</h2>
+
+        <p class="about">
+          I am improving my communication, confidence, teamwork and
+          self-development skills through continuous learning.
+        </p>
+        <div class="life-certificates">
+          <div class="life-card">
+            <img src="./images/english 1.png" alt="EF SET Certificate 1" />
+            <h3>EF SET English</h3>
+            <p>A1 Beginner Level</p>
+          </div>
+
+          <div class="life-card">
+            <img src="./images/english 2.png" alt="EF SET Certificate 2" />
+            <h3>EF SET English</h3>
+            <p>A1 Beginner Level</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card">📞 +91 98765 43210</div>
+          <div class="contact-card">📧 thrishathrisha849@gmail.com</div>
+          <div class="contact-card">
+            <a href="https://github.com/thrishathrisha849-cyber" target="_blank"
+              >GitHub</a
+            >
+          </div>
+          <div class="contact-card">
+            <a
+              href="https://www.linkedin.com/in/thrisha-thrisha-bb4911375/"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <footer>© 2026 Thrisha | Portfolio</footer>
     </section>
   </body>
 </html>
