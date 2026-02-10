@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Thrisha Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -29,17 +29,14 @@
 
     <section class="section" id="about">
       <h2>About Me</h2>
-
       <div class="about-container">
-        <img src="./images/my photo.jpg" alt="About Thrisha" width="400" />
-
+        <img src="./images/my photo.jpg" alt="About Thrisha" />
         <p class="about">
-          I’m Thrisha,  I'am learning a frontend development student at Freshworks STS Software
-          Academy. I have completed my 12th standard and I am 
-          learning  like HTML, CSS, and JavaScript. I am also
-          learning Low-Code / No-Code tools and Figma design. I believe in
-          consistent learning and hard work, and I aim to grow as a confident
-          software professional.
+          I'm Thrisha, I'm learning frontend development at Freshworks STS
+          Software Academy. I have completed my 12th standard and I am learning
+          HTML, CSS, and JavaScript. I am also learning Low-Code / No-Code tools
+          and Figma design. I believe in consistent learning and hard work, and
+          I aim to grow as a confident software professional.
         </p>
       </div>
     </section>
@@ -100,8 +97,8 @@
             href="https://thrishathrisha849-cyber.github.io/Project-TODO-list/"
             target="_blank"
             class="btn btn-primary"
-            >View Website</a>
-        </div>
+            >View Website</a
+          >
         </div>
 
         <div class="project">
@@ -112,78 +109,1547 @@
             href="https://thrishathrisha849-cyber.github.io/static-webpage/"
             target="_blank"
             class="btn btn-primary"
-            >View Website</a>
+            >View Website</a
+          >
         </div>
-        </section>
-     
+      </div>
+    </section>
 
-      <section class="section" id="life-skills">
-        <h2>Life Skills</h2>
+    <section class="section" id="life-skills">
+      <h2>Life Skills</h2>
+
+      <div class="life-card">
+        <img src="./images/Figma.png" alt="Figma" />
+        <h3>Life Skills Project</h3>
+        <p>Self Learning Modules</p>
+      </div>
+    </section>
+
+    <section class="section" id="english">
+      <h2>English Skills</h2>
+
+      <p class="about">EF SET English assessment results</p>
+
+      <div class="english-scores">
+        <div class="score-card">
+          <div class="circle c29"><span>29%</span></div>
+          <h4>Reading</h4>
+          <p>A1 Beginner</p>
+        </div>
+
+        <div class="score-card">
+          <div class="circle c25"><span>25%</span></div>
+          <h4>Listening</h4>
+          <p>A1 Beginner</p>
+        </div>
+
+        <div class="score-card">
+          <div class="circle c17"><span>17%</span></div>
+          <h4>Writing</h4>
+          <p>A0 Novice</p>
+        </div>
+
+        <div class="score-card">
+          <div class="circle c43"><span>43%</span></div>
+          <h4>Speaking</h4>
+          <p>B1 Intermediate</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Me</h2>
+
+      <div class="contact-container">
+        <div class="contact-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/724/724664.png"
+            alt="Phone"
+          />
+          <span>+91 9360498814</span>
+        </div>
+
+        <div class="contact-card">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+            alt="Email"
+          />
+          <span>thrishathrisha849@gmail.com</span>
+        </div>
+
+        <a
+          href="https://github.com/thrishathrisha849-cyber"
+          target="_blank"
+          class="contact-card"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733553.png"
+            alt="GitHub"
+          />
+          <span>GitHub</span>
+        </a>
+
+        <a
+          href="https://linkedin.com/in/yourusername"
+          target="_blank"
+          class="contact-card"
+        >
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/733/733561.png"
+            alt="LinkedIn"
+          />
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </body>
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thrisha - Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --color-bg: #0a0e27;
+            --color-bg-secondary: #151935;
+            --color-surface: #1e2442;
+            --color-surface-hover: #252b4f;
+            
+            --color-primary: #4ECDC4;
+            --color-accent: #FF6B6B;
+            --color-accent-2: #FFE66D;
+            --color-accent-3: #95E1D3;
+            
+            --color-text: #f8f9fa;
+            --color-text-dim: #a0aec0;
+            --color-text-muted: #718096;
+            
+            --font-display: 'Archivo Black', sans-serif;
+            --font-body: 'DM Sans', sans-serif;
+            
+            --spacing-xs: 0.5rem;
+            --spacing-sm: 1rem;
+            --spacing-md: 1.5rem;
+            --spacing-lg: 2rem;
+            --spacing-xl: 3rem;
+            --spacing-2xl: 4rem;
+            
+            --radius-sm: 8px;
+            --radius-md: 16px;
+            --radius-lg: 24px;
+            
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.2);
+            --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.3);
+            --shadow-glow: 0 0 30px rgba(78, 205, 196, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--color-bg);
+            color: var(--color-text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(78, 205, 196, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 107, 107, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(255, 230, 109, 0.05) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        /* Header */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: rgba(10, 14, 39, 0.95);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 5%;
+            z-index: 1000;
+            animation: slideDown 0.6s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-text {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-accent-3));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .logo-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--color-accent);
+            border-radius: 50%;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+            50% {
+                transform: scale(1.3);
+                opacity: 0.7;
+            }
+        }
+
+        nav {
+            display: flex;
+            gap: 2.5rem;
+        }
+
+        .nav-link {
+            font-size: 0.95rem;
+            font-weight: 500;
+            text-decoration: none;
+            color: var(--color-text-dim);
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--color-primary);
+            transition: width 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: var(--color-text);
+        }
+
+        .nav-link:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 120px 5% 80px;
+            gap: 4rem;
+        }
+
+        .hero-content {
+            flex: 1;
+            max-width: 600px;
+            animation: fadeInUp 0.8s ease 0.2s backwards;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-label {
+            display: inline-block;
+            padding: 8px 16px;
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--color-primary);
+            margin-bottom: 2rem;
+            letter-spacing: 0.5px;
+        }
+
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-title .line {
+            display: block;
+            animation: slideInLeft 0.8s ease backwards;
+        }
+
+        .hero-title .line:nth-child(2) {
+            animation-delay: 0.1s;
+        }
+
+        .hero-title .line.accent {
+            background: linear-gradient(135deg, var(--color-accent), var(--color-accent-2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation-delay: 0.2s;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: var(--color-text-dim);
+            margin-bottom: 2.5rem;
+            line-height: 1.8;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 14px 32px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--color-primary);
+            color: var(--color-bg);
+            box-shadow: 0 4px 20px rgba(78, 205, 196, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(78, 205, 196, 0.5);
+        }
+
+        .btn-primary svg {
+            transition: transform 0.3s ease;
+        }
+
+        .btn-primary:hover svg {
+            transform: translateX(4px);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--color-text);
+            border: 2px solid var(--color-surface);
+        }
+
+        .btn-secondary:hover {
+            background: var(--color-surface);
+            border-color: var(--color-primary);
+        }
+
+        /* Hero Visual */
+        .hero-visual {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            animation: fadeIn 1s ease 0.4s backwards;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .profile-container {
+            position: relative;
+            z-index: 2;
+        }
+
+        .profile-image {
+            width: 320px;
+            height: 320px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--color-primary);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+            animation: float 6s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .profile-ring {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: -20px;
+            bottom: -20px;
+            border: 2px solid rgba(78, 205, 196, 0.3);
+            border-radius: 50%;
+            animation: rotate 20s linear infinite;
+        }
+
+        .profile-ring-2 {
+            position: absolute;
+            top: -40px;
+            left: -40px;
+            right: -40px;
+            bottom: -40px;
+            border: 2px dashed rgba(255, 107, 107, 0.2);
+            border-radius: 50%;
+            animation: rotate 30s linear infinite reverse;
+        }
+
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .floating-badge {
+            position: absolute;
+            padding: 10px 20px;
+            background: var(--color-surface);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--color-text);
+            box-shadow: var(--shadow-md);
+            animation: floatBadge 4s ease-in-out infinite;
+        }
+
+        .badge-1 {
+            top: 10%;
+            right: 10%;
+            background: linear-gradient(135deg, rgba(255, 107, 107, 0.2), rgba(255, 107, 107, 0.05));
+            border-color: rgba(255, 107, 107, 0.3);
+            animation-delay: 0s;
+        }
+
+        .badge-2 {
+            bottom: 20%;
+            left: -10%;
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.2), rgba(78, 205, 196, 0.05));
+            border-color: rgba(78, 205, 196, 0.3);
+            animation-delay: 1.3s;
+        }
+
+        .badge-3 {
+            bottom: 10%;
+            right: 5%;
+            background: linear-gradient(135deg, rgba(255, 230, 109, 0.2), rgba(255, 230, 109, 0.05));
+            border-color: rgba(255, 230, 109, 0.3);
+            animation-delay: 2.6s;
+        }
+
+        @keyframes floatBadge {
+            0%, 100% {
+                transform: translateY(0px) scale(1);
+            }
+            50% {
+                transform: translateY(-15px) scale(1.05);
+            }
+        }
+
+        /* Section Styles */
+        .section {
+            padding: 100px 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .section-number {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            color: rgba(255, 255, 255, 0.05);
+            line-height: 1;
+        }
+
+        .section-title {
+            font-family: var(--font-display);
+            font-size: clamp(2rem, 5vw, 3rem);
+            background: linear-gradient(135deg, var(--color-text), var(--color-text-dim));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        /* About Section */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .about-image-wrapper {
+            position: relative;
+        }
+
+        .about-image {
+            width: 100%;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            z-index: 2;
+        }
+
+        .about-decoration {
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            right: 20px;
+            bottom: 20px;
+            background: linear-gradient(135deg, rgba(78, 205, 196, 0.3), rgba(255, 107, 107, 0.3));
+            border-radius: var(--radius-lg);
+            z-index: 1;
+        }
+
+        .about-text {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .about-intro {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: var(--color-text);
+        }
+
+        .about-intro strong,
+        .about-description strong {
+            color: var(--color-primary);
+            font-weight: 700;
+        }
+
+        .about-description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-text-dim);
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 1.5rem;
+            background: var(--color-surface);
+            border-radius: var(--radius-md);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .stat:hover {
+            transform: translateY(-5px);
+            border-color: var(--color-primary);
+        }
+
+        .stat-number {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--color-text-dim);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .skill-card {
+            background: var(--color-surface);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--skill-color), transparent);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .skill-card:hover::before {
+            opacity: 1;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .skill-card:nth-child(1) { --skill-color: #FF6B6B; }
+        .skill-card:nth-child(2) { --skill-color: #4ECDC4; }
+        .skill-card:nth-child(3) { --skill-color: #FFE66D; }
+        .skill-card:nth-child(4) { --skill-color: #A8DADC; }
+
+        .skill-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            color: var(--color-text-dim);
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .skill-card:hover .skill-icon {
+            color: var(--color-primary);
+            transform: scale(1.1);
+        }
+
+        .skill-name {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .skill-progress {
+            height: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 0.75rem;
+        }
+
+        .skill-bar {
+            height: 100%;
+            border-radius: 10px;
+            position: relative;
+            animation: fillBar 2s ease forwards;
+        }
+
+        @keyframes fillBar {
+            from {
+                width: 0;
+            }
+        }
+
+        .skill-bar::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3));
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%);
+            }
+            100% {
+                transform: translateX(100%);
+            }
+        }
+
+        .skill-percent {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--color-text-dim);
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 3rem;
+        }
+
+        .project-card {
+            background: var(--color-surface);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: rgba(78, 205, 196, 0.3);
+        }
+
+        .project-image {
+            position: relative;
+            height: 280px;
+            overflow: hidden;
+        }
+
+        .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+        }
+
+        .project-card:hover .project-image img {
+            transform: scale(1.1);
+        }
+
+        .project-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 14, 39, 0.9);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .project-card:hover .project-overlay {
+            opacity: 1;
+        }
+
+        .project-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 12px 28px;
+            background: var(--color-primary);
+            color: var(--color-bg);
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(78, 205, 196, 0.5);
+        }
+
+        .project-link svg {
+            transition: transform 0.3s ease;
+        }
+
+        .project-link:hover svg {
+            transform: translateX(4px);
+        }
+
+        .project-content {
+            padding: 2rem;
+        }
+
+        .project-title {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--color-text);
+        }
+
+        .project-description {
+            color: var(--color-text-dim);
+            line-height: 1.7;
+            margin-bottom: 1.5rem;
+        }
+
+        .project-tags {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .tag {
+            padding: 6px 14px;
+            background: rgba(78, 205, 196, 0.1);
+            border: 1px solid rgba(78, 205, 196, 0.3);
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--color-primary);
+        }
+
+        /* Additional Section */
+        .additional-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            gap: 3rem;
+        }
+
+        .life-card {
+            background: var(--color-surface);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+        }
+
+        .life-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 107, 107, 0.3);
+        }
+
+        .life-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .life-content {
+            padding: 1.5rem;
+        }
+
+        .life-content h3 {
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--color-accent);
+        }
+
+        .life-content p {
+            color: var(--color-text-dim);
+        }
+
+        .english-subtitle {
+            color: var(--color-text-dim);
+            margin-bottom: 2rem;
+            font-size: 1.1rem;
+        }
+
+        .english-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.5rem;
+        }
+
+        .english-card {
+            background: var(--color-surface);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .english-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .english-card h4 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            margin: 1rem 0 0.5rem;
+            color: var(--color-text);
+        }
+
+        .level {
+            font-size: 0.9rem;
+            color: var(--color-text-dim);
+        }
+
+        .circular-progress {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            position: relative;
+        }
+
+        .circular-progress::before {
+            content: '';
+            position: absolute;
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            background: var(--color-surface);
+        }
+
+        .progress-value {
+            position: relative;
+            z-index: 2;
+            font-family: var(--font-display);
+            font-size: 1.3rem;
+            color: var(--color-text);
+        }
+
+        .english-card:nth-child(1) .circular-progress {
+            background: conic-gradient(#FF6B6B 29%, rgba(255, 255, 255, 0.05) 0);
+        }
+        .english-card:nth-child(2) .circular-progress {
+            background: conic-gradient(#4ECDC4 25%, rgba(255, 255, 255, 0.05) 0);
+        }
+        .english-card:nth-child(3) .circular-progress {
+            background: conic-gradient(#FFE66D 17%, rgba(255, 255, 255, 0.05) 0);
+        }
+        .english-card:nth-child(4) .circular-progress {
+            background: conic-gradient(#95E1D3 43%, rgba(255, 255, 255, 0.05) 0);
+        }
+
+        /* Contact Section */
+        .contact-intro {
+            text-align: center;
+            font-size: 1.15rem;
+            color: var(--color-text-dim);
+            max-width: 700px;
+            margin: 0 auto 3rem;
+            line-height: 1.8;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .contact-card {
+            background: var(--color-surface);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            text-decoration: none;
+            color: var(--color-text);
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--color-primary);
+            box-shadow: var(--shadow-md);
+        }
+
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(78, 205, 196, 0.1);
+            border-radius: var(--radius-sm);
+            color: var(--color-primary);
+            flex-shrink: 0;
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover .contact-icon {
+            background: var(--color-primary);
+            color: var(--color-bg);
+            transform: scale(1.1);
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 0.25rem;
+        }
+
+        .contact-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--color-text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-value {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: var(--color-text);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--color-bg-secondary);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 3rem 5%;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .footer-content p {
+            color: var(--color-text-dim);
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-note {
+            font-size: 0.9rem;
+            color: var(--color-text-muted);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .hero {
+                flex-direction: column-reverse;
+                text-align: center;
+                padding: 140px 5% 80px;
+            }
+
+            .hero-content {
+                max-width: 100%;
+            }
+
+            .hero-buttons {
+                justify-content: center;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .additional-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .english-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 0 4%;
+                height: 70px;
+            }
+
+            .logo-text {
+                font-size: 1.2rem;
+            }
+
+            nav {
+                gap: 1.5rem;
+            }
+
+            .nav-link {
+                font-size: 0.85rem;
+            }
+
+            .section {
+                padding: 60px 4%;
+            }
+
+            .section-header {
+                margin-bottom: 2.5rem;
+            }
+
+            .section-number {
+                font-size: 2rem;
+            }
+
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .profile-image {
+                width: 260px;
+                height: 260px;
+            }
+
+            .floating-badge {
+                display: none;
+            }
+
+            .english-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .btn {
+                padding: 12px 24px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <span class="logo-text">THRISHA</span>
+            <span class="logo-dot"></span>
+        </div>
+        <nav>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-label">Frontend Developer in Training</div>
+            <h1 class="hero-title">
+                <span class="line">Building the</span>
+                <span class="line">Web, One</span>
+                <span class="line accent">Pixel at a Time</span>
+            </h1>
+            <p class="hero-subtitle">
+                Learning modern web development at Freshworks STS Software Academy
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <span>Explore Work</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="profile-container">
+                <img src="./images/my photo.jpg" alt="Thrisha" class="profile-image" />
+                <div class="profile-ring"></div>
+                <div class="profile-ring-2"></div>
+            </div>
+            <div class="floating-badge badge-1">HTML/CSS</div>
+            <div class="floating-badge badge-2">JavaScript</div>
+            <div class="floating-badge badge-3">Figma</div>
+        </div>
+    </section>
+
+    <section class="section about-section" id="about">
+        <div class="section-header">
+            <span class="section-number">01</span>
+            <h2 class="section-title">About Me</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-image-wrapper">
+                <img src="./images/my photo.jpg" alt="About Thrisha" class="about-image" />
+                <div class="about-decoration"></div>
+            </div>
+            <div class="about-text">
+                <p class="about-intro">
+                    I'm <strong>Thrisha</strong>, a passionate frontend developer currently learning at 
+                    <strong>Freshworks STS Software Academy</strong>. Having completed my 12th standard, 
+                    I've embarked on an exciting journey into the world of web development.
+                </p>
+                <p class="about-description">
+                    I'm mastering <strong>HTML, CSS, and JavaScript</strong>, along with modern tools like 
+                    <strong>Figma</strong> for design and various low-code/no-code platforms. My approach 
+                    is built on consistent learning, dedication, and the belief that every line of code 
+                    is a step toward becoming a confident software professional.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">2024</div>
+                        <div class="stat-label">Started Learning</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Technologies</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+        <div class="section-header">
+            <span class="section-number">02</span>
+            <h2 class="section-title">Technical Skills</h2>
+        </div>
         
-        <div class="life-card">
-          <img src="./images/Figma.png" alt="Figma" height="1000" />
-          <h3>Life Skills Project</h3>
-          <p>Self Learning Modules</p>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M8 8L12 40L24 44L36 40L40 8H8Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M24 12V36M16 20H32M16 28H32" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3 class="skill-name">HTML</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 30%; background: #FF6B6B;"></div>
+                </div>
+                <span class="skill-percent">30%</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <path d="M8 8L12 40L24 44L36 40L40 8H8Z" stroke="currentColor" stroke-width="2"/>
+                        <path d="M24 24C24 24 28 20 28 16C28 12 24 12 24 12C24 12 20 12 20 16C20 20 24 24 24 24ZM24 24C24 24 20 28 20 32C20 36 24 36 24 36C24 36 28 36 28 32C28 28 24 24 24 24Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3 class="skill-name">CSS</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 40%; background: #4ECDC4;"></div>
+                </div>
+                <span class="skill-percent">40%</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M18 24L22 20L26 24L30 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <h3 class="skill-name">JavaScript</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 20%; background: #FFE66D;"></div>
+                </div>
+                <span class="skill-percent">20%</span>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-icon">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                        <circle cx="24" cy="24" r="16" stroke="currentColor" stroke-width="2"/>
+                        <path d="M24 16L28 24L24 32L20 24L24 16Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h3 class="skill-name">GitHub</h3>
+                <div class="skill-progress">
+                    <div class="skill-bar" style="width: 35%; background: #A8DADC;"></div>
+                </div>
+                <span class="skill-percent">35%</span>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section class="section" id="english">
-        <h2>English Skills</h2>
-
-        <p class="about">EF SET English assessment results</p>
-
-        <div class="english-scores">
-          <div class="score-card">
-            <div class="circle c29"><span>29%</span></div>
-            <h4>Reading</h4>
-            <p>A1 Beginner</p>
-          </div>
-
-          <div class="score-card">
-            <div class="circle c25"><span>25%</span></div>
-            <h4>Listening</h4>
-            <p>A1 Beginner</p>
-          </div>
-
-          <div class="score-card">
-            <div class="circle c17"><span>17%</span></div>
-            <h4>Writing</h4>
-            <p>A0 Novice</p>
-          </div>
-
-          <div class="score-card">
-            <div class="circle c43"><span>43%</span></div>
-            <h4>Speaking</h4>
-            <p>B1 Intermediate</p>
-          </div>
+    <section class="section projects-section" id="projects">
+        <div class="section-header">
+            <span class="section-number">03</span>
+            <h2 class="section-title">Featured Projects</h2>
         </div>
-      </section>
 
+        <div class="projects-grid">
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./images/project2.png" alt="To Do List App" />
+                    <div class="project-overlay">
+                        <a href="https://thrishathrisha849-cyber.github.io/Project-TODO-list/" 
+                           target="_blank" 
+                           class="project-link">
+                            View Live
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">To-Do List App</h3>
+                    <p class="project-description">
+                        A dynamic task management application built with vanilla JavaScript, 
+                        featuring add, edit, and delete functionality with local storage persistence.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </article>
 
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="./images/project3.png" alt="Static Website" />
+                    <div class="project-overlay">
+                        <a href="https://thrishathrisha849-cyber.github.io/static-webpage/" 
+                           target="_blank" 
+                           class="project-link">
+                            View Live
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10H16M16 10L10 4M16 10L10 16" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Static Website</h3>
+                    <p class="project-description">
+                        A responsive static webpage demonstrating fundamental HTML & CSS skills 
+                        with clean layout and modern design principles.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
 
-      <section id="contact">
-  <h2>Contact Me</h2>
+    <section class="section additional-section">
+        <div class="additional-grid">
+            <div class="life-skills">
+                <div class="section-header">
+                    <span class="section-number">04</span>
+                    <h2 class="section-title">Life Skills</h2>
+                </div>
+                <div class="life-card">
+                    <img src="./images/Figma.png" alt="Figma Life Skills" />
+                    <div class="life-content">
+                        <h3>Self Learning Modules</h3>
+                        <p>Continuous personal and professional development</p>
+                    </div>
+                </div>
+            </div>
 
-  <div class="contact-container">
-    <div class="contact-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone">
-      <span>+91 9360498814</span>
-    </div>
+            <div class="english-skills">
+                <div class="section-header">
+                    <span class="section-number">05</span>
+                    <h2 class="section-title">English Skills</h2>
+                </div>
+                <p class="english-subtitle">EF SET Assessment Results</p>
+                <div class="english-grid">
+                    <div class="english-card">
+                        <div class="circular-progress">
+                            <span class="progress-value">29%</span>
+                        </div>
+                        <h4>Reading</h4>
+                        <p class="level">A1 Beginner</p>
+                    </div>
+                    <div class="english-card">
+                        <div class="circular-progress">
+                            <span class="progress-value">25%</span>
+                        </div>
+                        <h4>Listening</h4>
+                        <p class="level">A1 Beginner</p>
+                    </div>
+                    <div class="english-card">
+                        <div class="circular-progress">
+                            <span class="progress-value">17%</span>
+                        </div>
+                        <h4>Writing</h4>
+                        <p class="level">A0 Novice</p>
+                    </div>
+                    <div class="english-card">
+                        <div class="circular-progress">
+                            <span class="progress-value">43%</span>
+                        </div>
+                        <h4>Speaking</h4>
+                        <p class="level">B1 Intermediate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="contact-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
-      <span>thrishathrisha849@gmail.com</span>
-    </div>
+    <section class="section contact-section" id="contact">
+        <div class="section-header">
+            <span class="section-number">06</span>
+            <h2 class="section-title">Let's Connect</h2>
+        </div>
+        <p class="contact-intro">
+            I'm always excited to connect with fellow developers, learn from experienced professionals, 
+            or discuss potential opportunities. Feel free to reach out!
+        </p>
+        
+        <div class="contact-grid">
+            <a href="tel:+919360498814" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M8 4H12L14 10L11 12C12 14.667 14.667 17.333 17 18L19 15L25 17V21C25 22.657 23.657 24 22 24C14.268 24 8 17.732 8 10C8 8.343 9.343 7 11 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-label">Phone</span>
+                    <span class="contact-value">+91 9360498814</span>
+                </div>
+            </a>
 
-    <a href="https://github.com/yourusername" target="_blank" class="contact-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
-      <span>GitHub</span>
-    </a>
+            <a href="mailto:thrishathrisha849@gmail.com" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="4" y="8" width="24" height="16" rx="2" stroke="currentColor" stroke-width="2"/>
+                        <path d="M4 10L16 18L28 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">thrishathrisha849@gmail.com</span>
+                </div>
+            </a>
 
-    <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-card">
-      <img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn">
-      <span>LinkedIn</span></a>
-  </div>
-</section>
+            <a href="https://github.com/thrishathrisha849-cyber" target="_blank" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 4C9.373 4 4 9.373 4 16C4 21.302 7.438 25.8 12.207 27.387C12.806 27.498 13 27.126 13 26.808V24.646C9.671 25.362 8.967 23.047 8.967 23.047C8.421 21.677 7.634 21.307 7.634 21.307C6.545 20.574 7.717 20.589 7.717 20.589C8.922 20.675 9.555 21.815 9.555 21.815C10.626 23.635 12.364 23.107 13.048 22.802C13.155 22.027 13.466 21.501 13.807 21.203C11.145 20.902 8.343 19.882 8.343 15.181C8.343 13.885 8.812 12.825 9.579 11.996C9.455 11.694 9.044 10.496 9.696 8.87C9.696 8.87 10.704 8.545 12.996 10.06C13.954 9.793 14.98 9.659 16 9.654C17.02 9.659 18.047 9.793 19.006 10.06C21.297 8.545 22.303 8.87 22.303 8.87C22.956 10.497 22.545 11.695 22.421 11.996C23.189 12.825 23.654 13.885 23.654 15.181C23.654 19.893 20.847 20.899 18.177 21.195C18.607 21.567 19 22.297 19 23.409V26.808C19 27.129 19.191 27.504 19.801 27.386C24.566 25.797 28 21.301 28 16C28 9.373 22.627 4 16 4Z" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-value">@thrishathrisha849-cyber</span>
+                </div>
+            </a>
+
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect x="4" y="4" width="24" height="24" rx="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M11 14V22M11 11V11.01M15 22V14M15 14C15 12.343 16.343 11 18 11C19.657 11 21 12.343 21 14V22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="contact-info">
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-value">Connect with me</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Thrisha. Crafted with dedication and lots of ☕</p>
+            <p class="footer-note">Learning, growing, and building the web.</p>
+        </div>
+    </footer>
 </body>
 </html>
